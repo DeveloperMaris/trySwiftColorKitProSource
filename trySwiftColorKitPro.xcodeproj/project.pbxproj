@@ -10,6 +10,7 @@
 		A97E2AC92615008D00A73EA8 /* trySwiftColorKitPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A97E2ABF2615008D00A73EA8 /* trySwiftColorKitPro.framework */; };
 		A97E2ACE2615008D00A73EA8 /* trySwiftColorKitProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2ACD2615008D00A73EA8 /* trySwiftColorKitProTests.swift */; };
 		A97E2AD02615008D00A73EA8 /* trySwiftColorKitPro.h in Headers */ = {isa = PBXBuildFile; fileRef = A97E2AC22615008D00A73EA8 /* trySwiftColorKitPro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97E2AF42615038700A73EA8 /* Color+Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2AF32615038700A73EA8 /* Color+Pro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		A97E2ADE2615011A00A73EA8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A97E2ADF2615011A00A73EA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A97E2AE02615012700A73EA8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../trySwiftColorKit/.gitignore; sourceTree = "<group>"; };
+		A97E2AF32615038700A73EA8 /* Color+Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pro.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				A97E2AC22615008D00A73EA8 /* trySwiftColorKitPro.h */,
 				A97E2AC32615008D00A73EA8 /* Info.plist */,
+				A97E2AF32615038700A73EA8 /* Color+Pro.swift */,
 			);
 			path = trySwiftColorKitPro;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E2AF42615038700A73EA8 /* Color+Pro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +417,7 @@
 		A97E2AD72615008D00A73EA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PMEDFW438U;
 				INFOPLIST_FILE = trySwiftColorKitProTests/Info.plist;
@@ -431,6 +436,7 @@
 		A97E2AD82615008D00A73EA8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PMEDFW438U;
 				INFOPLIST_FILE = trySwiftColorKitProTests/Info.plist;
