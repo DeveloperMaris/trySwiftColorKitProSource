@@ -13,6 +13,7 @@
 		A97E2AF42615038700A73EA8 /* Color+Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2AF32615038700A73EA8 /* Color+Pro.swift */; };
 		A97E2AF92615041200A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2AF82615041200A73EA8 /* trySwiftColorKit */; };
 		A97E2B52261514D600A73EA8 /* trySwiftColorKitPro_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A97E2B50261514D600A73EA8 /* trySwiftColorKitPro_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A97E2B652615151800A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2B642615151800A73EA8 /* trySwiftColorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E2B652615151800A73EA8 /* trySwiftColorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +79,7 @@
 				A97E2B4F261514D600A73EA8 /* trySwiftColorKitPro-macOS */,
 				A97E2ADD2615010800A73EA8 /* Project Files */,
 				A97E2AC02615008D00A73EA8 /* Products */,
+				A97E2B632615151800A73EA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +130,13 @@
 				A97E2B51261514D600A73EA8 /* Info.plist */,
 			);
 			path = "trySwiftColorKitPro-macOS";
+			sourceTree = "<group>";
+		};
+		A97E2B632615151800A73EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +214,9 @@
 			dependencies = (
 			);
 			name = "trySwiftColorKitPro-macOS";
+			packageProductDependencies = (
+				A97E2B642615151800A73EA8 /* trySwiftColorKit */,
+			);
 			productName = "trySwiftColorKitPro-macOS";
 			productReference = A97E2B4E261514D600A73EA8 /* trySwiftColorKitPro_macOS.framework */;
 			productType = "com.apple.product-type.framework";
@@ -634,6 +647,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		A97E2AF82615041200A73EA8 /* trySwiftColorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97E2AF72615041200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */;
+			productName = trySwiftColorKit;
+		};
+		A97E2B642615151800A73EA8 /* trySwiftColorKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A97E2AF72615041200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */;
 			productName = trySwiftColorKit;
