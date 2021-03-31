@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import trySwiftColorKit
 
 public extension Color {
     
-    static var proBlue: Color { .blue }
-    static var proGreen: Color { .green }
-    static var proRed: Color { .red }
-    static var proYellow: Color { .green }
+    static var proBlue: Color { .deepBlue }
+    static var proGreen: Color { .deepGreen }
+    static var proRed: Color { .deepRed }
+    static var proYellow: Color { .deepYellow }
 }
