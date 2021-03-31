@@ -16,8 +16,13 @@
 default_platform(:ios)
 
 platform :ios do
-  desc "Description of what the lane does"
-  lane :custom_lane do
-    # add actions here: https://docs.fastlane.tools/actions
+
+  desc "Create an XCFramework for iOS, iOS Simulator and macOS"
+  lane :archive do
+    sh('cd .. && rm -rf build')
+    sh('cd .. && xcodebuild archive -scheme trySwiftColorKitPro -destination "generic/platform=iOS" -archivePath build/trySwiftColorKitPro-iOS SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES')
+    sh('cd .. && xcodebuild archive -scheme trySwiftColorKitPro -destination "generic/platform=iOS Simulator" -archivePath build/trySwiftColorKitPro-sim SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES')
+    sh('cd .. && xcodebuild archive -scheme trySwiftColorKitPro -destination "generic/platform=OS X" -archivePath build/trySwiftColorKitPro-macOS SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES')
+    sh('cd .. && xcodebuild -create-xcframework -framework build/trySwiftColorKitPro-iOS.xcarchive/Products/Library/Frameworks/trySwiftColorKitPro.framework -framework build/trySwiftColorKitPro-sim.xcarchive/Products/Library/Frameworks/trySwiftColorKitPro.framework -framework build/trySwiftColorKitPro-macOS.xcarchive/Products/Library/Frameworks/trySwiftColorKitPro.framework -output build/trySwiftColorKitPro.xcframework')
   end
 end
