@@ -33,8 +33,8 @@
 		A97E2ACF2615008D00A73EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A97E2ADE2615011A00A73EA8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A97E2ADF2615011A00A73EA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		A97E2AE02615012700A73EA8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../trySwiftColorKit/.gitignore; sourceTree = "<group>"; };
 		A97E2AF32615038700A73EA8 /* Color+Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pro.swift"; sourceTree = "<group>"; };
+		A97E2AFC2615063700A73EA8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 		A97E2ADD2615010800A73EA8 /* Project Files */ = {
 			isa = PBXGroup;
 			children = (
-				A97E2AE02615012700A73EA8 /* .gitignore */,
+				A97E2AFC2615063700A73EA8 /* .gitignore */,
 				A97E2ADE2615011A00A73EA8 /* LICENSE */,
 				A97E2ADF2615011A00A73EA8 /* README.md */,
 			);
