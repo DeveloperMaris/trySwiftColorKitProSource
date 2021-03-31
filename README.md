@@ -29,3 +29,14 @@ xcodebuild archive \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 ```
+
+### Step 3 - Archive for macOS
+
+```
+xcodebuild archive \
+-scheme trySwiftColorKitPro \
+-destination "generic/platform=OS X" \
+-archivePath build/trySwiftColorKitPro-macOS \
+SKIP_INSTALL=NO \
+BUILD_LIBRARY_FOR_DISTRIBUTION=YES
+```
