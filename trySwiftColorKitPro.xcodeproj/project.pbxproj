@@ -78,8 +78,8 @@
 				A97E2AC12615008D00A73EA8 /* trySwiftColorKitPro */,
 				A97E2ACC2615008D00A73EA8 /* trySwiftColorKitProTests */,
 				A97E2B4F261514D600A73EA8 /* trySwiftColorKitPro-macOS */,
-				A97E2ADD2615010800A73EA8 /* Project Files */,
 				A97E2AC02615008D00A73EA8 /* Products */,
+				A97E2ADD2615010800A73EA8 /* Project Files */,
 				A97E2B632615151800A73EA8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
