@@ -25,7 +25,7 @@ BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 xcodebuild archive \
 -scheme trySwiftColorKitPro \
 -destination "generic/platform=iOS Simulator" \
--archivePath build/trySwiftColorKitPro-iOSSim \
+-archivePath build/trySwiftColorKitPro-sim \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 ```
@@ -40,3 +40,14 @@ xcodebuild archive \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 ```
+
+### Step 4 - Create XCFramework
+
+```
+xcodebuild -create-xcframework \
+-framework build/trySwiftColorKitPro-iOS.xcarchive/Products/Library/Frameworks/trySwiftColorKitPro.framework \
+-framework build/trySwiftColorKitPro-sim.xcarchive/Products/Library/Frameworks/trySwiftColorKitPro.framework \
+-framework build/trySwiftColorKitPro-macOS.xcarchive/Products/Library/Frameworks/trySwiftColorKitPro.framework \
+-output build/trySwiftColorKitPro.xcframework
+```
+
