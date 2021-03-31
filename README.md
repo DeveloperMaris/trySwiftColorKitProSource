@@ -14,7 +14,7 @@ iOS simulator and macOS, then gather them all in a single XCFramework.
 xcodebuild archive \
 -scheme trySwiftColorKitPro \
 -destination "generic/platform=iOS" \
--archivePath build/trySwiftColorKitPro \
+-archivePath build/trySwiftColorKitPro-iOS \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 ```
@@ -25,7 +25,7 @@ BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 xcodebuild archive \
 -scheme trySwiftColorKitPro \
 -destination "generic/platform=iOS Simulator" \
--archivePath build/trySwiftColorKitPro-Sim \
+-archivePath build/trySwiftColorKitPro-iOSSim \
 SKIP_INSTALL=NO \
 BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 ```
