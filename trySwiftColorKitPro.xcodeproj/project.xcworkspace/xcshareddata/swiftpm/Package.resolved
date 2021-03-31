@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "trySwiftColorKit",
+        "repositoryURL": "https://github.com/danielsaidi/trySwiftColorKit",
+        "state": {
+          "branch": "main",
+          "revision": "957a114f0975395e3dd15418a0c5cc86f3655788",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

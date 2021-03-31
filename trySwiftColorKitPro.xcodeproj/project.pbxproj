@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		A97E2ACE2615008D00A73EA8 /* trySwiftColorKitProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2ACD2615008D00A73EA8 /* trySwiftColorKitProTests.swift */; };
 		A97E2AD02615008D00A73EA8 /* trySwiftColorKitPro.h in Headers */ = {isa = PBXBuildFile; fileRef = A97E2AC22615008D00A73EA8 /* trySwiftColorKitPro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A97E2AF42615038700A73EA8 /* Color+Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2AF32615038700A73EA8 /* Color+Pro.swift */; };
+		A97E2AF92615041200A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2AF82615041200A73EA8 /* trySwiftColorKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97E2AF92615041200A73EA8 /* trySwiftColorKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +133,9 @@
 			dependencies = (
 			);
 			name = trySwiftColorKitPro;
+			packageProductDependencies = (
+				A97E2AF82615041200A73EA8 /* trySwiftColorKit */,
+			);
 			productName = trySwiftColorKitPro;
 			productReference = A97E2ABF2615008D00A73EA8 /* trySwiftColorKitPro.framework */;
 			productType = "com.apple.product-type.framework";
@@ -180,6 +185,9 @@
 				Base,
 			);
 			mainGroup = A97E2AB52615008D00A73EA8;
+			packageReferences = (
+				A97E2AF72615041200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */,
+			);
 			productRefGroup = A97E2AC02615008D00A73EA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -483,6 +491,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A97E2AF72615041200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/trySwiftColorKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A97E2AF82615041200A73EA8 /* trySwiftColorKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97E2AF72615041200A73EA8 /* XCRemoteSwiftPackageReference "trySwiftColorKit" */;
+			productName = trySwiftColorKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97E2AB62615008D00A73EA8 /* Project object */;
 }
