@@ -35,6 +35,7 @@
 		A97E2ADF2615011A00A73EA8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A97E2AF32615038700A73EA8 /* Color+Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pro.swift"; sourceTree = "<group>"; };
 		A97E2AFC2615063700A73EA8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A97E2AFF26150BC700A73EA8 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				A97E2AFC2615063700A73EA8 /* .gitignore */,
+				A97E2AFF26150BC700A73EA8 /* Fastfile */,
 				A97E2ADE2615011A00A73EA8 /* LICENSE */,
 				A97E2ADF2615011A00A73EA8 /* README.md */,
 			);
