@@ -12,7 +12,6 @@
 		A97E2AD02615008D00A73EA8 /* trySwiftColorKitPro.h in Headers */ = {isa = PBXBuildFile; fileRef = A97E2AC22615008D00A73EA8 /* trySwiftColorKitPro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A97E2AF42615038700A73EA8 /* Color+Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2AF32615038700A73EA8 /* Color+Pro.swift */; };
 		A97E2AF92615041200A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2AF82615041200A73EA8 /* trySwiftColorKit */; };
-		A97E2B52261514D600A73EA8 /* trySwiftColorKitPro_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = A97E2B50261514D600A73EA8 /* trySwiftColorKitPro_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A97E2B652615151800A73EA8 /* trySwiftColorKit in Frameworks */ = {isa = PBXBuildFile; productRef = A97E2B642615151800A73EA8 /* trySwiftColorKit */; };
 		A97E2B692615156500A73EA8 /* Color+Pro.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97E2AF32615038700A73EA8 /* Color+Pro.swift */; };
 /* End PBXBuildFile section */
@@ -40,8 +39,6 @@
 		A97E2AFC2615063700A73EA8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A97E2AFF26150BC700A73EA8 /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
 		A97E2B4E261514D600A73EA8 /* trySwiftColorKitPro_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = trySwiftColorKitPro_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A97E2B50261514D600A73EA8 /* trySwiftColorKitPro_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trySwiftColorKitPro_macOS.h; sourceTree = "<group>"; };
-		A97E2B51261514D600A73EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +74,6 @@
 			children = (
 				A97E2AC12615008D00A73EA8 /* trySwiftColorKitPro */,
 				A97E2ACC2615008D00A73EA8 /* trySwiftColorKitProTests */,
-				A97E2B4F261514D600A73EA8 /* trySwiftColorKitPro-macOS */,
 				A97E2AC02615008D00A73EA8 /* Products */,
 				A97E2ADD2615010800A73EA8 /* Project Files */,
 				A97E2B632615151800A73EA8 /* Frameworks */,
@@ -124,15 +120,6 @@
 			name = "Project Files";
 			sourceTree = "<group>";
 		};
-		A97E2B4F261514D600A73EA8 /* trySwiftColorKitPro-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				A97E2B50261514D600A73EA8 /* trySwiftColorKitPro_macOS.h */,
-				A97E2B51261514D600A73EA8 /* Info.plist */,
-			);
-			path = "trySwiftColorKitPro-macOS";
-			sourceTree = "<group>";
-		};
 		A97E2B632615151800A73EA8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,7 +142,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A97E2B52261514D600A73EA8 /* trySwiftColorKitPro_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
