@@ -17,6 +17,8 @@
 		A9E6687A262F4CB7009608ED /* trySwiftColorKitPro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = trySwiftColorKitPro.h; sourceTree = "<group>"; };
 		A9E6687B262F4CB7009608ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E66887262F4CD3009608ED /* Color+Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pro.swift"; sourceTree = "<group>"; };
+		A9E6688B262F4DAA009608ED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9E6688C262F4DE6009608ED /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 		A9E6686D262F4CB7009608ED = {
 			isa = PBXGroup;
 			children = (
+				A9E6688A262F4D98009608ED /* Project Files */,
 				A9E66879262F4CB7009608ED /* trySwiftColorKitPro */,
 				A9E66878262F4CB7009608ED /* Products */,
 			);
@@ -55,6 +58,15 @@
 				A9E66887262F4CD3009608ED /* Color+Pro.swift */,
 			);
 			path = trySwiftColorKitPro;
+			sourceTree = "<group>";
+		};
+		A9E6688A262F4D98009608ED /* Project Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9E6688C262F4DE6009608ED /* .gitignore */,
+				A9E6688B262F4DAA009608ED /* README.md */,
+			);
+			name = "Project Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
