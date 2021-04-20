@@ -18,6 +18,7 @@
 		A9E6687B262F4CB7009608ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9E66887262F4CD3009608ED /* Color+Pro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Pro.swift"; sourceTree = "<group>"; };
 		A9E6688E262F4E7B009608ED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A9E6688F262F4FBE009608ED /* Fastfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Fastfile; path = fastlane/Fastfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 		A9E6688A262F4D98009608ED /* Project Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9E6688F262F4FBE009608ED /* Fastfile */,
 				A9E6688E262F4E7B009608ED /* README.md */,
 			);
 			name = "Project Files";
